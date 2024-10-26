@@ -1,0 +1,16 @@
+-- Welcome to Map Maker lua!
+-- To get started, edit the code below
+-- For documentation, check https://map-maker.abstractmelon.net/docs/lua/
+-- Enjoy map making!
+
+-- This is code that runs only on the first frame:
+if (FirstFrame == nil) then
+    -- Put code here you only want to run one time
+    print("Hello from First Frame!")
+
+    FirstFrame = false
+end
+
+-- The main part of the script runs every frame
+-- Put stuff here you want running always
+print("Hello from every frame!")
